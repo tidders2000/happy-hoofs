@@ -1,0 +1,123 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*...............................colors*/
+
+.nav-bg-color{
+    background-color: #1b5e1f;
+}
+
+/*...............................header*/
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+
+
+.purple{
+    background-color: purple;
+   
+}
+
+.black{
+    background-color: black;
+    height: 50px;
+}
+
+.pink{
+    background-color: pink;
+    height:  50px;
+}
+
+.yellow{
+    background-color: yellow;
+  
+   
+   
+}
+
+.red{
+    background-color: red;
+    
+  
+}
+
+.blue{
+    background-color: blue;
+
+}
+
+
+
+.grey{
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+.wide{
+ width: 60%;
+ margin-bottom: 10px;
+}
+
+.column-in-center{
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+.nav-in-center{
+    float: none;
+    margin: 0 auto;
+    
+}
+
+#nav {
+    margin: 0;
+
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menu-item {
+    height: 120px;
+    padding: 0;
+    text-align: center;
+
+}
+
+.menu-item a {
+    width: 100%;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
+/*...............................media queries*/
+@media(min-width: 992px){
+.testing:first-child{
+    margin-left: 120px;
+}
+}
