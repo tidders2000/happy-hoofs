@@ -8,28 +8,77 @@ body{
     padding: 0;
 }
 
-
-
+@import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 /*...............................colors*/
 
-
 .purple{
-    background-color: purple;
-} /*use to set the main container for design purposes*/
-.nav-bg-color{
-    background-color: #1b5e1f;
+    background-color: #cbe8ba;
+
 }
+
+
+.nav-bg, .logo, .button-holder{
+    background-color: #1b5e1f;
+    
+}
+
+
+
 
 /*...............................header*/
 
-#nav {
+.top-bar{
+  
     margin: 0;
+    padding: 0px;
+    height:50px;
+   
+    
+}
+  
+  .logo {
+     
+    padding: 0px;
+    height:50px;
+   
+  }
+  
+  .logo a {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #cc5500;
+  }
+     
 
+
+.nav-links li a{
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
 }
 
-#nav li {
-    padding: 0;
+.nav-links:first-child{
+margin-left: 100px;
+}
+
+
+
+
+.button-holder{
+    
+   
+   
+    padding-top: 5px;
+  
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 /*...............................image and hotspot*/
@@ -68,7 +117,7 @@ body{
 }
 
 .feature-main {
-    background-color: red;
+    background-color: white;
     border-radius: 25px;
     margin-top: 25px;
    height: 100px;
