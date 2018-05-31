@@ -1,10 +1,17 @@
-html{
+html {
     margin: 0;
     padding: 0;
+    padding-right: 0;
 }
 
-body{
-     margin: 0;
+body {
+    margin: 0;
+    padding: 0;
+  padding-right: 0;
+}
+
+.reduce{
+    margin: 0;
     padding: 0;
 }
 
@@ -13,114 +20,108 @@ body{
 
 /*...............................colors*/
 
-.purple{
-    background-color: #cbe8ba;
+.purple {
+    background-color: purple;
+}
 
+.red{
+    background-color: red;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: green;
 }
 
 
-.nav-bg, .logo, .button-holder{
+.nav-bg {
     background-color: #1b5e1f;
-    
+
 }
 
 
+.body-col {
+
+    background-color: rgba(234, 250, 241, 0.3);
+
+}
 
 
+ 
 /*...............................header*/
-
-.top-bar{
-  
-    margin: 0;
-    padding: 0px;
-    height:50px;
-   
-    
+.header{
+ 
+    margin-left: 0;
+    padding: 0;
 }
-  
-  .logo {
-     
-    padding: 0px;
-    height:50px;
-   
-  }
-  
-  .logo a {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 30px;
-    margin-right: 20px;
+
+
+#brand{
     color: #cc5500;
-  }
-     
-
-
-.nav-links li a{
-font-family: 'Raleway', sans-serif;
-font-size: 12px;
 }
 
-.nav-links:first-child{
-margin-left: 100px;
+.contact-button{
+    background-color: #4c7a34;
+    transition: 0.2s ease-in-out;
 }
 
-
-
-
-.button-holder{
-    
-   
-   
-    padding-top: 5px;
-  
-}
-
-.col-centered{
-    float: none;
-    margin: 0 auto;
+.contact-button:hover{
+    background-color: #cc5500;
 }
 
 /*...............................image and hotspot*/
 
-.hotspot{
-  margin: auto;
-  margin-top: 160px;
-    width: 120px;
-    height: 120px;
-  background-color: green;
-  border-radius: 50%;
-  opacity: 0.4;
-  
+.hotspot {
+    border: none;
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: #130b34;
+    border-radius: 50%;
+    opacity: 0.2;
+
+
 }
 
-.hotspot:hover{
-    opacity: 1;
+.hotspot:hover {
+    opacity: 0.4;
 }
-
-.back-image{
+/*
+.back-image {
     background-image: url(../images/horse_beach.jpg);
-    background-position: center;
+    background-position: inherit;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    min-height: 500px;
+  
     text-align: center;
+  background-size: auto
 }
-
+*/
 
 /*...............................articles*/
 
-.column-in-center{
+.column-in-center {
     float: none;
     margin: 0 auto;
-    margin-bottom: 10px;
+    padding:0;
+    
+  
+
 }
 
 .feature-main {
     background-color: white;
     border-radius: 25px;
     margin-top: 25px;
-   height: 100px;
+    height: 100px;
+
 }
 
 
@@ -130,13 +131,19 @@ margin-left: 100px;
 
 /*...............................media queries*/
 
-@media(min-width: 992px){
-.testing:first-child{
-    margin-left: 120px; }
+@media (min-width: 1200px) {  
+ .nav-item:first-child{
+     margin-left: 80px;
+ } 
+   
 }
 
 
-
-
+@media (max-width: 320px) {  
+ #brand{
+   font-size: 10px;
+ } 
+   
+}
 
 
