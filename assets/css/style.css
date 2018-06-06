@@ -7,39 +7,21 @@ html {
 body {
     margin: 0;
     padding: 0;
-  padding-right: 0;
+    padding-right: 0;
 }
 
-.reduce{
+.reduce {
     margin: 0;
     padding: 0;
 }
 
+/*...............................fonts*/
+
 @import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 /*...............................colors*/
-
-.purple {
-    background-color: purple;
-}
-
-.red{
-    background-color: red;
-}
-
-.pink{
-    background-color: pink;
-}
-
-.orange{
-    background-color: orange;
-}
-
-.green{
-    background-color: green;
-}
-
 
 .nav-bg {
     background-color: #1b5e1f;
@@ -47,103 +29,555 @@ body {
 }
 
 
-.body-col {
+.main {
 
-    background-color: rgba(234, 250, 241, 0.3);
+    background-color: #f9f9f9;
 
 }
 
+.footer-bg {
+    background-color: #5e1c1b;
+}
 
- 
+.footie h5 {
+
+    color: #5e1c1b;
+    font-weight: 900;
+}
+
 /*...............................header*/
-.header{
- 
+
+.header {
+
     margin-left: 0;
     padding: 0;
 }
 
 
-#brand{
+#brand {
     color: #cc5500;
 }
 
-.contact-button{
+.contact-button {
     background-color: #4c7a34;
     transition: 0.2s ease-in-out;
 }
 
-.contact-button:hover{
+.contact-button:hover {
     background-color: #cc5500;
 }
 
 /*...............................image and hotspot*/
 
-.hotspot {
-    border: none;
+.hotspot p {
+    font-family: 'Lato' sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+}
+
+.hspot-heading {
+    font-family: 'Lato' sans-serif;
+    font-weight: 500;
+    color: #fafafa;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+
+.hotspot-click {
+
+    border: 0px;
     margin: auto;
-    margin-top: 30px;
-    width: 200px;
-    height: 200px;
-    background-color: #130b34;
-    border-radius: 50%;
-    opacity: 0.2;
+
+
+    text-align: center;
 
 
 }
 
-.hotspot:hover {
+
+.hotspot-button:hover {
     opacity: 0.4;
 }
-/*
+
 .back-image {
+
     background-image: url(../images/horse_beach.jpg);
-    background-position: inherit;
+
     background-repeat: no-repeat;
-  
-    text-align: center;
-  background-size: auto
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+
 }
-*/
+
+.back-image p {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hotspot-button {
+
+
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+
 
 /*...............................articles*/
 
-.column-in-center {
-    float: none;
-    margin: 0 auto;
-    padding:0;
-    
-  
+.heading-main {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: #cc5500;
+    font-family: 'Titillium+Web' sans-serif;
+}
+
+.article h5 {
+
+    margin-top: 10px;
+    text-align: center;
+    color: #1485CC;
+    font-family: 'Titillium+Web' sans-serif;
+}
+
+.article p {
+    text-align: justify;
+    font-family: 'Titillium+Web' sans-serif;
+    font-weight: 500;
+    min-height: 100px;
 
 }
 
-.feature-main {
-    background-color: white;
-    border-radius: 25px;
-    margin-top: 25px;
+.two-horse,
+.lesson,
+.stable {
+
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 150px;
     height: 100px;
 
+
+}
+
+
+.article-button {
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    color: #5e1c1b;
+}
+
+.article-button:hover {
+    opacity: 0.5;
+
+}
+
+.article-button a {
+    text-decoration: none;
+    color: #5e1c1b;
+}
+
+.article :last-child {
+    margin-bottom: 50px;
+}
+
+
+.art-img {
+    width: 100%;
+    border: 10px solid #5e1c1b;
+    height: 350px;
+}
+
+.pic-text {
+    font-family: 'Titillium+Web' sans-serif;
+    margin-top: 10px;
+
+
+}
+
+/*...............................footer*/
+
+.footie {
+    background-image: url(../images/grass-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    padding-bottom: 0;
+
+}
+
+.footie h5 {
+    text-align: center;
+    color: #5e1c1b;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #5e1c1b;
+    margin-top: 10px;
+
 }
 
 
 
 
+.address {
+
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: #fafafa;
+    font-weight: 400;
+    transition: 1s ease-in-out;
+
+}
+
+
+.address p:hover {
+    background-color: #5e1c1b;
+
+    opacity: 0.4;
+    border-radius: 50%;
+    height: 120px;
+
+
+}
+
+
+
+.map {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    font-family: 'Titillium+Web' sans-serif;
+    text-align: center;
+    color: #000000;
+    background-color: #fafafa;
+    font-weight: 500;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+.trip-advisor {
+
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trip-advisor h4 {
+    font-family: 'Titillium+Web' sans-serif;
+    text-align: center;
+    color: black;
+    background-color: white;
+
+}
+
+.trip-a {
+    text-align: center;
+    font-size: 70px;
+    color: #5e1c1b;
+    margin: auto;
+
+}
+
+
+
+
+.social {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.icon {
+    color: #5e1c1b;
+    background-color: #fafafa;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    padding: 6px;
+}
+
+.icon:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+
+
+}
+
+.call-to-action {
+    margin-top: 20px;
+
+}
+
+.call-to-action button {
+    background-color: #fafafa;
+    border-radius: 25px;
+    border: 1px solid #5e1c1b;
+    color: #5e1c1b;
+
+
+}
+
+.call-to-action button:hover {
+    background-color: #5e1c1b;
+    transition: all 0.5s ease;
+    -moz- transition: all 0.5s ease;
+    -webkit- transition: all 0.5s ease;
+    opacity: 0.5;
+}
+
+
+/*...............................contact form*/
+
+.form-control {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.contact-form button {
+
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#query {
+    height: 100px;
+
+
+}
+
+
+/*...............................calender page styling*/
+
+
+.page-header{
+    font-family: 'Titillium+Web' sans-serif;
+     margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+}
+.feature-main {
+  
+    padding: 0;
+   
+   
+   
+    
+    color: black;
+
+}
+
+.cal-image{
+    
+     display: block;
+     margin: auto;
+     margin-top: 10px;
+   border-radius: 50%;
+    width: 70%;
+    
+ 
+}
+
+.feature-main h5 {
+    font-family: 'Titillium+Web' sans-serif;
+    color: #5e1c1b;
+    font-weight: 600;
+    margin-top: 10px, auto;
+    
+    text-align: center;
+}
+
+.feature-main p {
+    text-align: justify;
+   padding:15px;
+    margin-top: 10px;
+    font-family: 'Titillium+Web' sans-serif;
+    text-align: justify;
+    font-size: 1em;
+
+
+}
+
+.cal-book {
+    
+    text-align: center;
+    margin: auto;
+    
+}
+
+.book-button {
+    display: block;
+   margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
 
 
 /*...............................media queries*/
 
-@media (min-width: 1200px) {  
- .nav-item:first-child{
-     margin-left: 80px;
- } 
-   
+@media (min-width: 992px) {
+    .nav-item:first-child {
+        margin-left: 150px;
+    }
+
 }
 
 
-@media (max-width: 320px) {  
- #brand{
-   font-size: 10px;
- } 
-   
+@media (max-width: 320px) {
+    #brand {
+        font-size: 10px;
+    }
+
 }
 
 
+@media (max-width: 375px) {
+    .back-image {
+
+        min-height: 0;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .trip-advisor h4 {
+        font-size: 15px;
+
+    }
+
+}
+
+@media (min-width: 375px) {
+    .social {
+        margin: auto;
+
+    }
+
+}
+
+@media (max-width: 375px) {
+    .hspot-heading {
+        font-size: 18px;
+
+
+    }
+    .hotspot p {
+        font-size: 12px;
+
+    }
+
+}
+
+
+
+
+
+
+/* ---------- CALENDAR ---------- with thanks to Jamie */
+
+.cal-container {
+   
+    padding: 0;
+
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
+
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
+
+
+
+.jzdbox1 {
+    width: 310px;
+    background: #332f2e;
+    border-radius: 5px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #201d1c;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.jzdcal {
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box!important;
+    background: #749d9e;
+    background: -webkit-linear-gradient(#749d9e, #b3a68b)!important;
+    background: -o-linear-gradient(#749d9e, #b3a68b)!important;
+    background: -moz-linear-gradient(#749d9e, #b3a68b)!important;
+    background: linear-gradient(#749d9e, #b3a68b)!important;
+}
+
+.jzdcalt {
+    font: 18px 'Roboto';
+    font-weight: 700;
+    color: #f7f3eb;
+    display: block;
+    margin: 18px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.jzdcal span {
+    font: 11px 'Roboto';
+    font-weight: 400;
+    color: #f7f3eb;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.jzdcal .jzdb:before {
+    opacity: 0.3;
+    content: 'o';
+}
+
+.circle {
+    border: 1px solid #f7f3eb;
+    box-sizing: border-box!important;
+    border-radius: 200px!important;
+}
+
+span[data-title]:hover:after,
+div[data-title]:hover:after {
+    font: 11px 'Roboto';
+    font-weight: 400;
+    content: attr(data-title);
+    position: absolute;
+    margin: 0 0 100px;
+    background: #282423;
+    border: 1px solid #f7f3eb;
+    color: #f7f3eb;
+    padding: 5px;
+    z-index: 9999;
+    min-width: 150px;
+    max-width: 150px;
+}
