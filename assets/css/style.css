@@ -108,7 +108,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 400px;
+  
+     min-height: 625px;
 
 }
 
@@ -121,6 +122,7 @@ body {
 
 
     margin: 0 auto;
+    margin-top:10px;
     text-align: center;
     height: auto;
 }
@@ -230,7 +232,7 @@ body {
 
 .address {
 
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Titillium+Web' sans-serif;
     text-align: center;
     color: #fafafa;
     font-weight: 400;
@@ -356,6 +358,10 @@ body {
     text-align: center;
 }
 
+.contact-form label
+{padding: 10px;
+}
+
 #query {
     height: 100px;
 
@@ -363,7 +369,7 @@ body {
 }
 
 
-/*...............................calender page styling*/
+/*...............................groups and competitions page styling*/
 
 
 .page-header{
@@ -390,6 +396,8 @@ body {
      margin-top: 10px;
    border-radius: 50%;
     width: 70%;
+ height: 250px;   
+  border: 10px solid #5e1c1b;
     
  
 }
@@ -429,6 +437,69 @@ body {
 
 }
 
+/*...............................lessons/livery*/
+.back-image-page {
+
+    background-image: url(../images/riding-lesson.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 625px;
+
+}
+
+.back-image-page-livery{
+
+    background-image: url(../images/livery_2.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 625px;
+
+}
+
+.back-image-page p, .back-image-page-livery p{
+    text-align: center;
+    padding-top: 250px;
+}
+
+.hotspot-button-page {
+
+
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+.hspot-heading-page, .heading-page {
+   text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: #cc5500;
+    font-family: 'Titillium+Web' sans-serif;
+    font-size: 2em;
+}
+
+.art-img-page{
+    width: 100%;
+    margin: 0;
+    height: 350px;
+}
+
+
+.muckout{
+
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+
+}
+
 
 /*...............................media queries*/
 
@@ -447,14 +518,16 @@ body {
 
 }
 
-
+/*
 @media (max-width: 375px) {
     .back-image {
 
-        min-height: 0;
-    }
+        max-height:0;
+       
+        
+    }*/
 
-}
+
 
 @media (max-width: 375px) {
     .trip-advisor h4 {
@@ -509,7 +582,7 @@ body {
 
 
 .jzdbox1 {
-    width: 310px;
+    width: 318px;
     background: #332f2e;
     border-radius: 5px;
     overflow: hidden;

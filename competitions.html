@@ -70,7 +70,174 @@
 
 
     <!--main page-->
+    
     <section class="container-fluid main">
+<div class="row">
+<h4 class="page-header">Competitions</h4>
+</div>
+        <div class="row">
+          
+            <div class="col-12  col-lg-6  feature-main ">
+  
+                <h5>Jumping Competitions</h5>
+                <img src="assets/images/showjump.jpg" class="cal-image"></img>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                </p>
+            </div>
+
+            <div class="col-12  col-lg-6  feature-main ">
+
+
+                <h5> Dressage</h5>
+                <img src="assets/images/dressage2.jpg" class="cal-image"></img>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <h5 class="cal-book"> Competition Schedule</h5>
+
+            <div class="col-12 cal-container">
+
+                <div class="jzdbox1 jzdbasf jzdcal">
+
+                    <div class="jzdcalt">June 2017</div>
+
+                    <span>Su</span>
+                    <span>Mo</span>
+                    <span>Tu</span>
+                    <span>We</span>
+                    <span>Th</span>
+                    <span>Fr</span>
+                    <span>Sa</span>
+
+
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span>1</span>
+                    <span class="circle" data-title="9am Dressage">2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                    <span>11</span>
+                    <span class="circle" data-title="12pm Show Juming 90-150">12</span>
+                    <span>13</span>
+                    <span>14</span>
+                    <span>15</span>
+                    <span>16</span>
+                    <span>17</span>
+                    <span>18</span>
+                    <span>19</span>
+                    <span>20</span>
+                    <span>21</span>
+                    <span class="circle" data-title="9am Advanced Dressage">22</span>
+                    <span>23</span>
+                    <span>24</span>
+                    <span>25</span>
+                    <span>26</span>
+                    <span>27</span>
+                    <span>28</span>
+                    <span>29</span>
+                    <span>30</span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                    <span class="jzdb"><!--BLANK--></span>
+                </div>
+
+
+            </div>
+
+
+            <button class=" btn btn-danger book-button " data-toggle="modal" data-target="#groupModal">Book</button>
+    </section>
+
+  <!-- Modal for contact form form -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+
+                   <form class="contact-form" method="post">
+                        <input type="text" class="form-control"  id="Name" placeholder="name">
+                        
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            
+                                                  <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
+How can we help?
+</textarea>
+                       
+                       <button type="submit" class="btn btn-dark">Submit </button>
+                   </form>
+
+                </div>
+                <div class="modal-footer">
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal for booking form -->
+    <div class="modal fade" id="groupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Book a Ride</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group contact-form" method="post">
+                        <input type="text" class="form-control" id="Name" placeholder=" Contact Name">
+
+                        <input type="email" class="form-control" id="Contact Email" placeholder="Email">
+                       
+      <input type="number" class="form-control" id="telephone" placeholder="Telephone/Mobile Number">
+                          <input type="date" class="form-control" id="date" >
+
+                        <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
+Enter name and ages of riders including name of horse
+</textarea>
+
+                        <button type="submit" class="btn btn-dark">Submit </button>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
      

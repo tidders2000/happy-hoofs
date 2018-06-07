@@ -73,37 +73,137 @@
     <section class="container-fluid main">
 
 
-     
+        <!--page image and hotspot-->
+         <!--page image and hotspot-->
+        <div class="row  no-gutter ">
+
+            <div class="col-12   back-image-page-livery">
+
+                <div class="hotspot-page">
+
+                    <p><span class="hspot-heading-page">Great Livery Deals <br>Enquire<br>
+                        <span class="hotspot-click "><button type="button" class="btn btn-outline-light hotspot-button-page" data-toggle="modal" data-target="#lessonsModal">Here</button> </span>
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--Articles-->
+
+    <section class="container-fluid">
+        <h1 class="heading-page"> 5 Star Home for your Pride and Joy</h1>
+        <div class="row ">
+
+            <div class=" col-12 col-md-6 article">
+
+                <img src="assets/images/muck-out.jpeg" alt="mucking out stables" class="img-fluid two-horse muckout"></img>
+                <h5> DIY</h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl</p>
+
+            </div>
+
+
+            <div class=" col-12 col-md-6 article">
+                <img src=" assets/images/goldstar.jpeg" alt="Horse lesson" class="img-fluid lesson"></img>
+                <h5>Gold Star Packages </h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                </p>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+
+
+                <img src="assets/images/country-view.jpg" class="art-img" alt="lady grooming a horse"></img>
+                <h5 class="pic-text"> We Have Great Hacking</h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+               
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="assets/images/horse-groom.jpeg" class="art-img" alt="indoor school"></img>
+                 <h5 class="pic-text"> We have great Staff</h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                </p>
+            </div>
+              <div class="col-12 col-md-4">
+                <img src="assets/images/indoor-school.jpg" class="art-img" alt="view of green fields and trees"></img>
+                 <h5 class="pic-text"> We have great facilites</h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                </p>
+            </div>
+        </div>
+
+
+
+
 
     </section>
 
-    <!-- Modal for video form -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal for lessons book -->
+    <div class="modal fade" id="lessonsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Beach Ride</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Book a Lesson</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
+                    <form class="contact-form" method="post">
+                        <input type="text" class="form-control" id="Name" placeholder="name">
 
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fbjk5GWA63w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+
+                        <input type="number" class="form-control" id="telephone" placeholder="Telephone/mobile">
+<br>
+                        <p>Livery Type</p> 
+                        <select name="Livery Type">
+  <option value="Diy">DIY</option>
+  <option value="Full">Full</option>
+  <option value="Gold">Gold</option>
+  <option value="Hunting">Hunting</option>
+</select>
+
+                        <button type="submit" class="btn btn-dark">Submit </button>
+                    </form>
+
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
+
+
                 </div>
             </div>
         </div>
     </div>
 
 
- <!-- Modal for contact form form -->
+    <!-- Modal for contact form form -->
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -115,22 +215,22 @@
                 </div>
                 <div class="modal-body">
 
-                   <form class="contact-form" method="post">
-                        <input type="text" class="form-control"  id="Name" placeholder="name">
-                        
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            
-                                                  <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
+                    <form class="contact-form" method="post">
+                        <input type="text" class="form-control" id="Name" placeholder="name">
+
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+
+                        <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
 How can we help?
 </textarea>
-                       
-                       <button type="submit" class="btn btn-dark">Submit </button>
-                   </form>
+
+                        <button type="submit" class="btn btn-dark">Submit </button>
+                    </form>
 
                 </div>
                 <div class="modal-footer">
-                   
-                    
+
+
                 </div>
             </div>
         </div>

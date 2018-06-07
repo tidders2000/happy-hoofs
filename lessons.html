@@ -73,37 +73,103 @@
     <section class="container-fluid main">
 
 
-     
+        <!--page image and hotspot-->
+        <div class="row  no-gutter ">
+
+            <div class="col-12   back-image-page">
+
+                <div class="hotspot-page">
+
+                    <p><span class="hspot-heading-page">Book a lesson <br>with a qualified instructor<br>
+                        <span class="hotspot-click "><button type="button" class="btn btn-outline-light hotspot-button-page" data-toggle="modal" data-target="#lessonsModal">Here</button> </span>
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--Articles-->
+
+    <section class="container-fluid">
+        <h1 class="heading-page"> We can Teach You!</h1>
+        <div class="row ">
+
+            <div class=" col-12 col-md-6 article">
+
+                <img src="assets/images/lesson-horse.jpg" alt="rider on a horse" class="img-fluid two-horse"></img>
+                <h5> Lesson Format</h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl</p>
+
+            </div>
+
+
+            <div class=" col-12 col-md-6 article">
+                <img src=" assets/images/horse-lesson.jpg" alt="Horse lesson" class="img-fluid lesson"></img>
+                <h5>Qualified Instructor </h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                </p>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 ">
+
+
+                <img src="assets/images/indoor-school.jpg" class="art-img-page" alt="riding sand school indoors"></img>
+                <h5 class="pic-text"> Great Facilities</h5>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                    luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+                </p>
+            </div>
+
+        </div>
+
+
+
+
 
     </section>
 
-    <!-- Modal for video form -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal for lessons book -->
+    <div class="modal fade" id="lessonsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Beach Ride</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Book a Lesson</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
+                    <form class="contact-form" method="post">
+                        <input type="text" class="form-control" id="Name" placeholder="name">
 
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fbjk5GWA63w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+
+                        <input type="number" class="form-control" id="telephone" placeholder="Telephone/mobile">
+
+                        <button type="submit" class="btn btn-dark">Submit </button>
+                    </form>
+
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
+                   
+
                 </div>
             </div>
         </div>
     </div>
 
 
- <!-- Modal for contact form form -->
+    <!-- Modal for contact form form -->
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -115,22 +181,22 @@
                 </div>
                 <div class="modal-body">
 
-                   <form class="contact-form" method="post">
-                        <input type="text" class="form-control"  id="Name" placeholder="name">
-                        
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            
-                                                  <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
+                    <form class="contact-form" method="post">
+                        <input type="text" class="form-control" id="Name" placeholder="name">
+
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+
+                        <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
 How can we help?
 </textarea>
-                       
-                       <button type="submit" class="btn btn-dark">Submit </button>
-                   </form>
+
+                        <button type="submit" class="btn btn-dark">Submit </button>
+                    </form>
 
                 </div>
                 <div class="modal-footer">
-                   
-                    
+
+
                 </div>
             </div>
         </div>
