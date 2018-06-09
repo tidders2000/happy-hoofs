@@ -1,19 +1,10 @@
-html {
-    margin: 0;
-    padding: 0;
-    padding-right: 0;
+
+/*...............................gerneral bits*/
+
+.uppercase{
+    text-transform: uppercase;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    padding-right: 0;
-}
-
-.reduce {
-    margin: 0;
-    padding: 0;
-}
 
 /*...............................fonts*/
 
@@ -445,7 +436,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 625px;
+  min-height: 675px;
+ 
 
 }
 
@@ -482,9 +474,12 @@ body {
 }
 
 .art-img-page{
+      display: block;
+   margin: auto;
     width: 100%;
-    margin: 0;
+  
     height: 350px;
+    max-width: 800px;
 }
 
 
