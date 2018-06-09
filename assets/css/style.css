@@ -14,6 +14,10 @@
 
 /*...............................colors*/
 
+.red{
+    background-color: red;
+}
+
 .nav-bg {
     background-color: #1b5e1f;
 
@@ -430,13 +434,17 @@
 
 /*...............................lessons/livery*/
 .back-image-page {
+    
+    padding:0;
+    margin: 0;
 
     background-image: url(../images/riding-lesson.jpg);
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:top;
     background-size: cover;
-  min-height: 500px;
+
+  min-height: 620px;
   
  
 
