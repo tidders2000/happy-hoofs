@@ -101,7 +101,7 @@
     background-image: url(../images/horse_beach.jpg);
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
   
      min-height: 625px;
@@ -346,7 +346,7 @@
 
 .contact-form button {
 
-    text-align: center;
+ 
     display: block;
     margin: 0 auto;
     margin-top: 10px;
@@ -365,7 +365,29 @@
 
 
 /*...............................groups and competitions page styling*/
+.back-image-comp {
 
+    background-image: url(../images/showjump.jpg);
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  
+     min-height: 625px;
+
+}
+
+.back-image-group {
+
+    background-image: url(../images/horse-riding-group.jpg);
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  
+     min-height: 625px;
+
+}
 
 .page-header{
     font-family: 'Titillium+Web' sans-serif;
@@ -390,9 +412,9 @@
      margin: auto;
      margin-top: 10px;
    border-radius: 50%;
-    width: 70%;
-    max-width: 800px;
- height: 250px;   
+    width: 100%;
+  
+ height: auto;   
   border: 10px solid #5e1c1b;
     
  
@@ -402,7 +424,7 @@
     font-family: 'Titillium+Web' sans-serif;
     color: #5e1c1b;
     font-weight: 600;
-    margin-top: 10px, auto;
+    margin-top: 20px ;
     
     text-align: center;
 }
@@ -462,9 +484,13 @@
 
 }
 
-.back-image-page p, .back-image-page-livery p{
+.back-image-page p, .back-image-page-livery p, .back-image-comp p, .back-image-group p{
     text-align: center;
     padding-top: 250px;
+    font-family: 'Lato' sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+    
 }
 
 .hotspot-button-page {
@@ -474,7 +500,7 @@
     text-align: center;
     height: auto;
 }
-.hspot-heading-page, .heading-page {
+.hspot-heading-page, .heading-page, .hspot-heading {
    text-align: center;
     margin-top: 10px;
     margin-bottom: 60px;
