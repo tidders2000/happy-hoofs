@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+
+
+
+
 <html lang="en">
 
 <head>
@@ -57,7 +62,7 @@
                         </li>
                     </ul>
                     <span class="navbar-text">
-        <button type="button " class=" d-none d-lg-block  btn btn-success contact-button" data-toggle="modal" data-target="#contactModal">
+        <button type="button" class=" d-none d-lg-block  btn btn-success contact-button" data-toggle="modal" data-target="#contactModal">
                   Contact Us
             </button>
     </span>
@@ -70,45 +75,45 @@
 
 
     <!--main page-->
-    
-       <section class="container-fluid main">
+
+    <section class="container-fluid main">
 
 
         <!--page image and hotspot-->
-        <div class="row  no-gutter ">
+        <div class="row  no-gutter">
 
             <div class="col-12   back-image-group">
 
                 <div class="hotspot">
 
                     <p><span class="hspot-heading uppercase">Group Rides  </span><br>Book a Place<br>
-                        <span class="hotspot-click "><button type="button" class="btn btn-outline-light hotspot-button" data-toggle="modal" data-target="#groupModal">Here</button> </span>
+                        <span class="hotspot-click"><button type="button" class="btn btn-outline-light hotspot-button" data-toggle="modal" data-target="#groupModal">Here</button></span>
                     </p>
                 </div>
-
             </div>
-    </section> 
-    
-    
-    
+        </div>
+    </section>
+
+
+
     <section class="container-fluid">
 
         <div class="row">
-          
-            <div class="col-12  col-lg-6  feature-main ">
-  
+
+            <div class="col-12  col-lg-6  feature-main">
+
                 <h5 class="uppercase"> What we offer</h5>
-               
+
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
                     ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
                 </p>
             </div>
 
-            <div class="col-12  col-lg-6  feature-main ">
+            <div class="col-12  col-lg-6  feature-main">
 
 
                 <h5 class="uppercase"> Why Us</h5>
-                
+
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
                     ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
                 </p>
@@ -116,7 +121,7 @@
 
 
         </div>
-<!-- this code is not mine but taken from the internet thanks to Jamie-->
+        <!-- this code is not mine but taken from the internet thanks to Jamie-->
         <div class="row">
             <h5 class="cal-book uppercase"> Ride Schedule</h5>
 
@@ -179,14 +184,14 @@
                     <span class="jzdb"><!--BLANK--></span>
                 </div>
 
-
             </div>
+        </div>
 
 
-            <button class=" btn btn-danger book-button " data-toggle="modal" data-target="#groupModal">Book</button>
+        <button class="btn btn-danger book-button" data-toggle="modal" data-target="#groupModal">Book</button>
     </section>
 
-  <!-- Modal for contact form form  from bootstrap  but i coded the forms-->
+    <!-- Modal for contact form form  from bootstrap  but i coded the forms-->
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -198,22 +203,22 @@
                 </div>
                 <div class="modal-body">
 
-                   <form class="contact-form" method="post">
-                        <input type="text" class="form-control"  id="Name" placeholder="name">
-                        
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            
-                                                  <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
+                    <form class="contact-form" method="post">
+                        <input type="text" class="form-control" id="Name" placeholder="name">
+
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+
+                        <textarea class="form-control" id="query" rows="10" cols="30">
 How can we help?
 </textarea>
-                       
-                       <button type="submit" class="btn btn-dark">Submit </button>
-                   </form>
+
+                        <button type="submit" class="btn btn-dark">Submit </button>
+                    </form>
 
                 </div>
                 <div class="modal-footer">
-                   
-                    
+
+
                 </div>
             </div>
         </div>
@@ -226,26 +231,28 @@ How can we help?
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Book a Ride</h5>
+                    <h5 class="modal-title">Book a Ride</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
 
-                    <div class="form-group contact-form" method="post">
-                        <input type="text" class="form-control" id="Name" placeholder=" Contact Name">
+                    <div class="form-group contact-form">
+                        <form method="post">
+                        <input type="text" class="form-control" id="Names" placeholder="ContactName">
 
-                        <input type="email" class="form-control" id="Contact Email" placeholder="Email">
-                       
-      <input type="number" class="form-control" id="telephone" placeholder="Telephone/Mobile Number">
-                          <input type="date" class="form-control" id="date" >
+                        <input type="email" class="form-control" id="ContactEmail" placeholder="Email">
 
-                        <textarea type="textarea" class="form-control" id="query" rows="10" cols="30">
+                        <input type="number" class="form-control" id="telephone" placeholder="Telephone/Mobile Number">
+                        <input type="date" class="form-control" id="date">
+
+                        <textarea  class="form-control" id="querys" rows="10" cols="30">
 Enter name and ages of riders
 </textarea>
 
                         <button type="submit" class="btn btn-dark">Submit </button>
+                        </form>
                     </div>
 
                 </div>
@@ -288,30 +295,34 @@ Enter name and ages of riders
 
 
 
-            <div class="col-4 ">
+            <div class="col-4">
 
 
 
-                <div class="col-6 social col-lg-2 "><a src="#"><span class="fab fa-twitter icon"></span></a></div>
-                <div class="col-6 social col-lg-2 "><a src="#"><span class="fab fa-facebook icon"></span></a></div>
+                <div class="col-6 social col-lg-2 "><a href="#"><span class="fab fa-twitter icon"></span></a></div>
+                <div class="col-6 social col-lg-2 "><a href="#"><span class="fab fa-facebook icon"></span></a></div>
 
 
             </div>
 
 
 
-            <div class="col-4  ">
+            <div class="col-4">
 
-                <div class="col-6 social col-lg-2"><a src="#"><span class="fab fa-linkedin icon"></span></a></div>
-                <div class="col-6 social col-lg-2"><a src="#"><span class="fab fa-instagram icon"></span></a></div>
+                <div class="col-6 social col-lg-2"><a href="#"><span class="fab fa-linkedin icon"></span></a></div>
+                <div class="col-6 social col-lg-2"><a href="#"><span class="fab fa-instagram icon"></span></a></div>
 
             </div>
 
 
-            <div class="col-4 ">
+            <div class="col-4">
 
-                <div class="col-6 social col-lg-2"><a src="#"><span class="fab fa-tripadvisor icon"></span></a></div>
-                <div class="col-6 social col-lg-2 "><a src="#"><span class="fab fa-facebook icon"></span></a></div>
+                <div class="col-6 social col-lg-2">
+                    <a href="#"><span class="fab fa-tripadvisor icon"></span></a>
+                    </div>
+                <div class="col-6 social col-lg-2">
+                    <a href="#"><span class="fab fa-facebook icon"></span></a>
+                </div>
 
             </div>
 
@@ -322,7 +333,7 @@ Enter name and ages of riders
 
             <div class="col-12  call-to-action">
 
-                <button type="button" id="contact" data-toggle="modal" data-target="#contactModal" class="btn btn-primary btn-lg btn-block">Join our Mail List  <br><span class="fas fa-envelope"></span></button></button>
+                <button type="button" id="contact" data-toggle="modal" data-target="#contactModal" class="btn btn-primary btn-lg btn-block">Join our Mail List  <br><span class="fas fa-envelope"></span></button>
             </div>
         </div>
 
