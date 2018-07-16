@@ -46,6 +46,8 @@ Testing
  
  I asked friends and family to carry out some UAT for me as well which resulted in some minor changes to layout
 
+I have put all apges through W3C HTML and CSS validators. This threw up an issue with buttons having the <a> tag. I have got
+round this by adding some javascript (jquery) to the buttons to redirect the click to the relevant page.
 
 Deployment
 
