@@ -79,13 +79,21 @@ p{
   
     color: #fafafa;
     font-weight: 500;
+  
+}
+
+.title-holder{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    color: #2F4F4F;
 }
 
 .hspot-heading {
 
     font-weight: 500;
-    color: #fafafa;
-    font-size: 2em;
+   
+    font-size: 170px;
     text-align: center;
 
 }
@@ -146,7 +154,7 @@ p{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 60px;
-    color: #cc5500;
+    color: #2F4F4F;
  
 }
 .article h5 {
@@ -160,13 +168,7 @@ p{
    
     font-weight: 500;
     min-height: 100px;
- 
-    
-    
-  
-   
-
-}
+ }
 
 /*...............................styling for article images and button*/
 
@@ -190,7 +192,7 @@ p{
     margin: 0 auto;
     margin-top: 10px;
     text-align: center;
-    color:  #cc5500;
+    color:  white;
     margin-top: 50px;
     background-color: #909090;
     border-color:  #909090;
@@ -198,12 +200,13 @@ p{
 
 .article-button:hover {
     opacity: 0.5 0.5;
+    background-color:#cc5500 ;
 
 }
 
 .article-button a {
     text-decoration: none;
-    color: #5e1c1b;
+    color: #ffffff;
     
 }
 
@@ -227,13 +230,33 @@ p{
 
 /*...............................footer*/
 
+.footer_holder{
+    background-color: 	#A9A9A9;
+    text-align: center;
+    color:#cc5500;
+}
+
+.footer-copyright{
+    text-align: center;
+    background-color: #2F4F4F;
+    color:#cc5500;
+}
+
+.footer_header{
+    text-align: center;
+    color:grey;
+}
+
 .footie {
-    background-image: url(../images/grass-3.jpg);
+   /* background-image: url(../images/grass-3.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     padding: 15px;
     padding-bottom: 0;
+    
+    background-image: linear-gradient(to right, #1b5e1f, #D3D3D3);
+
 
 }
 
@@ -272,6 +295,7 @@ p{
 
 .map {
     width: 90%;
+    min-height: 500px;
     margin: 0;
     padding: 0;
 }
@@ -444,9 +468,7 @@ p{
 
 .feature-main h5 {
 
-    color: #5e1c1b;
-    font-weight: 600;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -572,6 +594,10 @@ p{
         font-size: 15px;
 
     }
+    
+    .title-holder{
+        font-size: 1em;
+    }
 
 }
 
@@ -580,6 +606,8 @@ p{
         margin: auto;
 
     }
+    
+
 
 }
 
@@ -591,11 +619,21 @@ p{
         font-size: 12px;
 
     }
-
+    
+        .back-image{
+           background-size: contain;
+    min-height: 300px;
+}
 }
 
 
+@media(max-width: 760px) {
+  
+    .title-holder{
+        font-size: 1.5em;
+    }
 
+}
 
 
 
